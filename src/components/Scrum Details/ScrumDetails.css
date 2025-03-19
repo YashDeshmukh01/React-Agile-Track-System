@@ -1,0 +1,137 @@
+/* Container */
+.scrum-details-container {
+ max-width: 900px;
+ margin: 2rem auto;
+ padding: 1.5rem;
+ background-color: #ffffff;
+ border-radius: 10px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Title */
+.scrum-title {
+ color: #1e40af;
+ font-size: 1.75rem;
+ margin-bottom: 1.5rem;
+ border-bottom: 2px solid #e0e7ff;
+ padding-bottom: 0.5rem;
+}
+
+/* Section titles */
+.section-title {
+ color: #3b82f6;
+ font-size: 1.25rem;
+ margin-bottom: 1rem;
+ font-weight: 600;
+}
+
+/* Tasks section */
+.tasks-section {
+ margin-bottom: 2rem;
+}
+
+.task-list {
+ list-style: none;
+ padding: 0;
+}
+
+.task-item {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem;
+ background-color: #f8fafc;
+ margin-bottom: 0.75rem;
+ border-radius: 8px;
+ border-left: 4px solid #60a5fa;
+ transition: transform 0.2s ease;
+}
+
+.task-item:hover {
+ transform: translateX(3px);
+}
+
+.task-info {
+ flex-grow: 1;
+}
+
+.task-title {
+ color: #1f2937;
+ margin-right: 0.5rem;
+}
+
+.task-desc {
+ color: #4b5563;
+ margin-right: 0.5rem;
+}
+
+.task-status {
+ font-style: italic;
+ padding: 0.25rem 0.5rem;
+ border-radius: 12px;
+ font-size: 0.9rem;
+}
+
+.status-to-do {
+ background-color: #fee2e2;
+ color: #dc2626;
+}
+
+.status-in-progress {
+ background-color: #fef3c7;
+ color: #d97706;
+}
+
+.status-done {
+ background-color: #dcfce7;
+ color: #16a34a;
+}
+
+.status-select {
+ padding: 0.5rem;
+ border: 1px solid #d1d5db;
+ border-radius: 6px;
+ background-color: white;
+ cursor: pointer;
+ transition: border-color 0.2s ease;
+}
+
+.status-select:focus {
+ outline: none;
+ border-color: #3b82f6;
+ box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Users section */
+.users-section {
+ margin-bottom: 1rem;
+}
+
+.user-list {
+ list-style: none;
+ padding: 0;
+}
+
+.user-item {
+ padding: 0.75rem;
+ background-color: #f1f5f9;
+ margin-bottom: 0.5rem;
+ border-radius: 6px;
+ color: #374151;
+ border-left: 3px solid #7c3aed;
+}
+
+.loading-text {
+ color: #64748b;
+ font-style: italic;
+ text-align: center;
+}
+
+.no-users-text {
+ color: #6b7280;
+ font-style: italic;
+ text-align: center;
+ background-color: #f1f5f9;
+ padding: 1rem;
+ border-radius: 6px;
+}

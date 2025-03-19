@@ -1,0 +1,131 @@
+/* Dashboard container */
+.dashboard-container {
+ max-width: 1000px;
+ margin: 2rem auto;
+ padding: 1.5rem;
+ background-color: #f8fafc;
+ border-radius: 10px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.dashboard-title {
+ color: #1e40af;
+ font-size: 2rem;
+ margin-bottom: 1.5rem;
+ text-align: center;
+}
+
+/* Admin section */
+.admin-section {
+ margin-bottom: 2rem;
+}
+
+.toggle-form-btn {
+ background: linear-gradient(135deg, #3b82f6, #60a5fa);
+ color: white;
+ border: none;
+ padding: 0.75rem 1.5rem;
+ border-radius: 25px;
+ cursor: pointer;
+ font-weight: 600;
+ transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.toggle-form-btn:hover {
+ transform: translateY(-2px);
+ background: linear-gradient(135deg, #2563eb, #3b82f6);
+}
+
+/* Form styles */
+.scrum-form {
+ background-color: white;
+ padding: 1.5rem;
+ border-radius: 8px;
+ margin-top: 1rem;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+ margin-bottom: 1rem;
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+}
+
+.form-group label {
+ color: #4b5563;
+ font-weight: 500;
+}
+
+.form-input,
+.form-select {
+ padding: 0.5rem;
+ border: 1px solid #d1d5db;
+ border-radius: 4px;
+ font-size: 1rem;
+ transition: border-color 0.2s ease;
+}
+
+.form-input:focus,
+.form-select:focus {
+ outline: none;
+ border-color: #3b82f6;
+ box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.submit-btn {
+ background-color: #22c55e;
+ color: white;
+ border: none;
+ padding: 0.75rem 1.5rem;
+ border-radius: 25px;
+ cursor: pointer;
+ font-weight: 600;
+ transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+ background-color: #16a34a;
+}
+
+/* Scrum list */
+.scrum-list {
+ list-style: none;
+ padding: 0;
+}
+
+.scrum-item {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem;
+ background-color: white;
+ margin-bottom: 0.75rem;
+ border-radius: 8px;
+ border-left: 4px solid #3b82f6;
+ transition: transform 0.2s ease;
+}
+
+.scrum-item:hover {
+ transform: translateX(5px);
+}
+
+.scrum-item span {
+ color: #1f2937;
+ font-weight: 500;
+}
+
+.details-btn {
+ background-color: #8b5cf6;
+ color: white;
+ border: none;
+ padding: 0.5rem 1rem;
+ border-radius: 20px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+
+.details-btn:hover {
+ background-color: #7c3aed;
+}
