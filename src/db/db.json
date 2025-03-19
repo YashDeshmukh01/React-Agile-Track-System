@@ -2,64 +2,64 @@
   "users": [
     {
       "id": 1,
-      "name": "Admin User",
+      "name": "Yash Deshmukh",
       "email": "yash@example.com",
-      "password": "yashpassword",
+      "password": "yash123",
       "role": "admin"
     },
     {
       "id": 2,
-      "name": "Employee One",
-      "email": "employee1@example.com",
-      "password": "password1",
+      "name": "Rajesh Verma",
+      "email": "rajesh.verma@example.com",
+      "password": "rajesh123",
       "role": "employee"
     },
     {
       "id": 3,
-      "name": "Employee Two",
-      "email": "employee2@example.com",
-      "password": "password2",
+      "name": "Priya Singh",
+      "email": "priya.singh@example.com",
+      "password": "priya123",
       "role": "employee"
     },
     {
-      "name": "Employee Three",
-      "email": "employee3@example.com",
-      "password": "password3",
-      "role": "employee",
-      "id": 4
+      "id": 4,
+      "name": "Shyam Tiwari",
+      "email": "shyam.tiwari@example.com",
+      "password": "shyam123",
+      "role": "employee"
     }
   ],
   "scrums": [
     {
       "id": 1,
-      "name": "Scrum Team A"
+      "name": "Development Team Alpha"
     },
     {
       "id": 2,
-      "name": "Scrum Team B"
+      "name": "Testing Team Beta"
     },
     {
-      "name": "Scrum Team C",
-      "id": 3
+      "id": 3,
+      "name": "Design Team Gamma"
     },
     {
-      "name": "Scrum Team D",
-      "id": 4
+      "id": 4,
+      "name": "Operations Team Delta"
     },
     {
-      "name": "sjjkgjgksd",
-      "id": 5
+      "id": 5,
+      "name": "Support Team Epsilon"
     },
     {
-      "name": "Scrum Team F",
-      "id": 6
+      "id": 6,
+      "name": "Marketing Team Zeta"
     }
   ],
   "tasks": [
     {
       "id": 1,
-      "title": "Task One",
-      "description": "Description for Task One",
+      "title": "Fix Login Bug",
+      "description": "Resolve the login issue for mobile users.",
       "status": "Done",
       "scrumId": 1,
       "assignedTo": 2,
@@ -70,18 +70,18 @@
         },
         {
           "status": "In Progress",
-          "date": "2024-08-26"
+          "date": "2024-07-05"
         },
         {
           "status": "Done",
-          "date": "2024-08-26"
+          "date": "2024-07-07"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Task Two",
-      "description": "Description for Task Two",
+      "title": "Improve UI for Dashboard",
+      "description": "Revamp the dashboard UI for better user experience.",
       "status": "In Progress",
       "scrumId": 2,
       "assignedTo": 3,
@@ -92,69 +92,105 @@
         },
         {
           "status": "In Progress",
-          "date": "2024-07-03"
+          "date": "2024-07-10"
         }
       ]
     },
     {
-      "title": "Task 3",
-      "description": "Description for Task 3",
+      "id": 3,
+      "title": "Optimize Database Queries",
+      "description": "Improve the performance of database queries for reports.",
       "status": "In Progress",
       "scrumId": 3,
       "assignedTo": 3,
       "history": [
         {
+          "status": "To Do",
+          "date": "2024-08-20"
+        },
+        {
           "status": "In Progress",
           "date": "2024-08-26"
         }
-      ],
-      "id": 3
+      ]
     },
     {
-      "title": "Scrum Details for Scrum Team D",
-      "description": "Description for Task Three",
+      "id": 4,
+      "title": "Setup CI/CD Pipeline",
+      "description": "Implement an automated CI/CD pipeline for faster deployments.",
       "status": "To Do",
       "scrumId": 4,
-      "assignedTo": "2",
+      "assignedTo": 2,
       "history": [
-        {
-          "status": "In Progress",
-          "date": "2025-03-18"
-        },
         {
           "status": "To Do",
           "date": "2025-03-18"
         }
-      ],
-      "id": 4
+      ]
     },
     {
-      "title": "sdbasdjbd",
-      "description": "bsdkjdwj",
+      "id": 5,
+      "title": "Customer Feedback Analysis",
+      "description": "Analyze customer feedback to identify pain points.",
       "status": "In Progress",
       "scrumId": 5,
-      "assignedTo": "4",
+      "assignedTo": 4,
       "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-10"
+        },
         {
           "status": "In Progress",
           "date": "2025-03-18"
         }
-      ],
-      "id": 5
+      ]
     },
     {
-      "title": "Scrum Details for Scrum Team F",
-      "description": "Description for Task One",
+      "id": 6,
+      "title": "Email Campaign for Product Launch",
+      "description": "Prepare and send an email campaign for the new product launch.",
       "status": "In Progress",
       "scrumId": 6,
-      "assignedTo": "3",
+      "assignedTo": 3,
       "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-15"
+        },
         {
           "status": "In Progress",
           "date": "2025-03-18"
         }
-      ],
-      "id": 6
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Manage User Roles & Permissions",
+      "description": "Ensure proper role-based access control for all employees.",
+      "status": "To Do",
+      "scrumId": 1,
+      "assignedTo": 1,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Review System Security Policies",
+      "description": "Audit security policies and ensure compliance with best practices.",
+      "status": "To Do",
+      "scrumId": 4,
+      "assignedTo": 1,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-19"
+        }
+      ]
     }
   ]
 }
