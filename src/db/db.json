@@ -20,13 +20,6 @@
       "email": "priya.singh@example.com",
       "password": "priya123",
       "role": "employee"
-    },
-    {
-      "id": 4,
-      "name": "Shyam Tiwari",
-      "email": "shyam.tiwari@example.com",
-      "password": "shyam123",
-      "role": "employee"
     }
   ],
   "scrums": [
@@ -35,139 +28,15 @@
       "name": "Development Team Alpha"
     },
     {
-      "id": 2,
-      "name": "Testing Team Beta"
-    },
-    {
-      "id": 3,
-      "name": "Design Team Gamma"
-    },
-    {
       "id": 4,
       "name": "Operations Team Delta"
-    },
-    {
-      "id": 5,
-      "name": "Support Team Epsilon"
-    },
-    {
-      "id": 6,
-      "name": "Marketing Team Zeta"
     }
   ],
   "tasks": [
     {
       "id": 1,
-      "title": "Fix Login Bug",
-      "description": "Resolve the login issue for mobile users.",
-      "status": "Done",
-      "scrumId": 1,
-      "assignedTo": 2,
-      "history": [
-        {
-          "status": "To Do",
-          "date": "2024-07-01"
-        },
-        {
-          "status": "In Progress",
-          "date": "2024-07-05"
-        },
-        {
-          "status": "Done",
-          "date": "2024-07-07"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Improve UI for Dashboard",
-      "description": "Revamp the dashboard UI for better user experience.",
-      "status": "In Progress",
-      "scrumId": 2,
-      "assignedTo": 3,
-      "history": [
-        {
-          "status": "To Do",
-          "date": "2024-07-02"
-        },
-        {
-          "status": "In Progress",
-          "date": "2024-07-10"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Optimize Database Queries",
-      "description": "Improve the performance of database queries for reports.",
-      "status": "In Progress",
-      "scrumId": 3,
-      "assignedTo": 3,
-      "history": [
-        {
-          "status": "To Do",
-          "date": "2024-08-20"
-        },
-        {
-          "status": "In Progress",
-          "date": "2024-08-26"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Setup CI/CD Pipeline",
-      "description": "Implement an automated CI/CD pipeline for faster deployments.",
-      "status": "To Do",
-      "scrumId": 4,
-      "assignedTo": 2,
-      "history": [
-        {
-          "status": "To Do",
-          "date": "2025-03-18"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Customer Feedback Analysis",
-      "description": "Analyze customer feedback to identify pain points.",
-      "status": "In Progress",
-      "scrumId": 5,
-      "assignedTo": 4,
-      "history": [
-        {
-          "status": "To Do",
-          "date": "2025-03-10"
-        },
-        {
-          "status": "In Progress",
-          "date": "2025-03-18"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Email Campaign for Product Launch",
-      "description": "Prepare and send an email campaign for the new product launch.",
-      "status": "In Progress",
-      "scrumId": 6,
-      "assignedTo": 3,
-      "history": [
-        {
-          "status": "To Do",
-          "date": "2025-03-15"
-        },
-        {
-          "status": "In Progress",
-          "date": "2025-03-18"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Manage User Roles & Permissions",
-      "description": "Ensure proper role-based access control for all employees.",
+      "title": "Implement Multi-Factor Authentication",
+      "description": "Add MFA to enhance system security for all user logins.",
       "status": "To Do",
       "scrumId": 1,
       "assignedTo": 1,
@@ -179,12 +48,12 @@
       ]
     },
     {
-      "id": 8,
-      "title": "Review System Security Policies",
-      "description": "Audit security policies and ensure compliance with best practices.",
+      "id": 2,
+      "title": "Monitor Server Uptime",
+      "description": "Set up monitoring to ensure 99.9% server uptime for critical systems.",
       "status": "To Do",
       "scrumId": 4,
-      "assignedTo": 1,
+      "assignedTo": 2,
       "history": [
         {
           "status": "To Do",
